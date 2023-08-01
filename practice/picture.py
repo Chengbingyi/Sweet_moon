@@ -1,8 +1,7 @@
 import cv2
 import numpy as np
-import torch
 
-img = cv2.imread('1.jpg')
+img = cv2.imread('./image/1.jpg')
 cv2.imshow('img', img)
 
 num = np.zeros(img.shape, img.dtype) + 150
